@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    position: relative;
+    background-color: rgb(59, 57, 57);
+    height: 5rem;
+}
+.nav-wrapper {
+    display: flex;
+
+}
+
+.nav-logo {
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    display: flex;
+    position: relative;
+}
+
+.nav-logo h1, i {
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-logo i {
+    display: flex;
+    position: relative;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  color: white;
+  position: relative;
+  justify-content: right;
+  margin-left: 33rem;
+  margin-top: .3rem;
+}
+
+.nav-btn {
+  background-color: transparent;
+  justify-content: right !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 1rem;
+  text-decoration: none;
+  transition: color 1s ;
+}
+
+.nav-btn:hover {
+  color: yellow;
+}
+
+.nav-icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 960px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1pxsolid #fff;
+        position: absolute;
+        top: 80px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+    
+      .nav-menu.active {
+        background: #1f5156;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+      .nav-link .active {
+        color: #ffdd40;
+        border: none;
+      }
+      .nav-link {
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+      }
+
+      .nav-btn {
+        display: none;
+      }
+    
+      .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #ffdd40;
+      }
+    }
