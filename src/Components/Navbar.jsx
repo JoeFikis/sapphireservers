@@ -22,7 +22,7 @@ function Navbar() {
               <BrowserRouter>
               <ul className='nav-links'>
                 <Link to="/" className='nav-btn' onClick={handleClick}>Home</Link>
-                <Link to="about" className='nav-btn' onClick={handleClick}>About</Link>
+                <Link to="/about" className='nav-btn' onClick={handleClick}>About</Link>
                 <a href="https://dash.sapphireservers.net" className='nav-btn'>Sign-Up</a>
                 <div className="dot"></div>
               </ul>
