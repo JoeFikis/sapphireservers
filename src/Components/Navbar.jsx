@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Styles/Navbar.css'
-import  {BrowserRouter} from 'react-router-dom'
+import  {BrowserRouter , Link } from 'react-router-dom'
+
 
 function Navbar() {
 
@@ -20,9 +21,8 @@ function Navbar() {
             <div className="nav-links">
               <BrowserRouter>
               <ul className='nav-links'>
-                <a href="/" className='nav-btn' onClick={handleClick}>Home</a>
-                <a href="/" className='nav-btn' onClick={handleClick}>About</a>
-                <a href="/" className='nav-btn' onClick={handleClick}>Contact</a>
+                <Link to="/" className='nav-btn' onClick={handleClick}>Home</Link>
+                <Link to="about" className='nav-btn' onClick={handleClick}>About</Link>
                 <a href="https://dash.sapphireservers.net" className='nav-btn'>Sign-Up</a>
                 <div className="dot"></div>
               </ul>
@@ -37,4 +37,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

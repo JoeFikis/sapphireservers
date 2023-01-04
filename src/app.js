@@ -1,10 +1,21 @@
-import React from 'react'
-import Navbar from './Components/Navbar.jsx'
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import { BrowserRouter as Router , Route, Routes } from "react-router-dom";
 
-function app() {
+function App() {
   return (
-    <Navbar />
-  )
+    <>
+      <Navbar />
+      <Router>
+      <Routes>
+        <Route path="/" exact component={<Home />} />
+        <Route path="about" exact Fragment={<About />} />)
+      </Routes>
+      </Router>
+    </>
+  );
 }
 
-export default app
+export default App;
