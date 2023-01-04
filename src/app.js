@@ -11,7 +11,7 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" exact component={<Home />} />
-        <Route path="about" exact Fragment={<About />} />)
+        <Route path="about" exact component={<About />} />
       </Routes>
       </Router>
     </>
