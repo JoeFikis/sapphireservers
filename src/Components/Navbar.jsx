@@ -9,7 +9,6 @@ function Navbar() {
   const handleClick = () => setClick(!click);
 
 
-
   return (
     <div className='nav-container'>
         <div className='nav-wrapper'>
@@ -22,7 +21,7 @@ function Navbar() {
               <BrowserRouter>
               <ul className='nav-links'>
                 <a href="/" className='nav-btn' onClick={handleClick}>Home</a>
-                <a href="../about.js" className='nav-btn' onClick={handleClick}>About</a>
+                <a href="/" className='nav-btn' onClick={handleClick}>About</a>
                 <a href="/" className='nav-btn' onClick={handleClick}>Contact</a>
                 <a href="https://dash.sapphireservers.net" className='nav-btn'>Sign-Up</a>
                 <div className="dot"></div>

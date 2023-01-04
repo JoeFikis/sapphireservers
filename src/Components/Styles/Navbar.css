@@ -41,7 +41,7 @@
   color: white;
   position: relative;
   justify-content: right;
-  margin-left: 33rem;
+  margin-left: 33rem auto;
   margin-top: .3rem;
 }
 
