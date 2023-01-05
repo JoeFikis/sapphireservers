@@ -5,7 +5,6 @@ import About from "./Components/Pages/About/About";
 import { BrowserRouter as Router , Route, Routes } from "react-router-dom";
 
 
-
 function App() {
 
 
@@ -14,12 +13,10 @@ function App() {
     <>
       <Navbar />
       <Router>
-        <div className="pages">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </Router>
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-
+import Cards from './Components/Cards'
 
 function Home() {
   return (
@@ -21,6 +21,7 @@ function Home() {
         </div>
       </div>
     </div>
+    <Cards />
     </>
   )
 }

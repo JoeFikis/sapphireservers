@@ -6,7 +6,7 @@
 .nav-container {
     display: flex;
     position: relative;
-    background-color: rgb(59, 57, 57);
+    background-color:rgb(37, 37, 37);
     height: 5rem;
 }
 .nav-wrapper {
@@ -106,7 +106,7 @@
   }
 
   .nav-menu.active {
-    background:   rgb(59, 57, 57);
+    background:   rgb(37, 37, 37);
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
