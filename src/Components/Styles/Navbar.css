@@ -88,7 +88,8 @@
 
 .nav-link-wrapper {
   display: flex;
-  margin-left: 53rem;
+  margin-left: 73rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -105,14 +106,14 @@
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background:   rgb(59, 57, 57);
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: rgb(95, 95, 211);
     border: none;
   }
   .nav-links {
@@ -129,7 +130,7 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: white;
   }
       .nav-link-wrapper {
         display: flex;
