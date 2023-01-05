@@ -8,19 +8,18 @@ import { BrowserRouter as Router , Route, Routes } from "react-router-dom";
 
 function App() {
 
-  function refreshPage() {
-    window.location.reload(false);
-  }
 
 
   return (
     <>
       <Navbar />
       <Router>
+        <div className="pages">
       <Routes>
-        <Route onClick={refreshPage} path="/" element={<Home />} />
-        <Route onClick={refreshPage}path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
+      </div>
       </Router>
     </>
   );

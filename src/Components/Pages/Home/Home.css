@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-.header-container{
-   
+.header-wrapper{
+   display: flex;
+   justify-content: center;
 }
 
 .header-text {

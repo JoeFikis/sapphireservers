@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home'
+import './Home.css'
 
 
 function Home() {
@@ -11,9 +11,10 @@ function Home() {
           <h1>
             SapphireServers
           </h1>
-        </div>
+        
         <div className="header-description">
           <h2>A premium game server host that provides secure fast premium servers.</h2>
+        </div>
         </div>
         <div className='header-sign-up'>
           <button><a href="dash.sapphireservers.net">Sign-Up</a></button>
