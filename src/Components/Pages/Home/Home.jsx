@@ -17,7 +17,7 @@ function Home() {
         </div>
         </div>
         <div className='header-sign-up'>
-          <button><a href="dash.sapphireservers.net">Sign-Up</a></button>
+        <span><a href="https://dash.sapphireservers.net/"></a></span>
         </div>
       </div>
     </div>
