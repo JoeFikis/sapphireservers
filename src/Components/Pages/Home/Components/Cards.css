@@ -6,24 +6,90 @@
 .cards-container {
     display: flex;
     position: relative;
-    margin: 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    height: 36rem;
+    margin: 0;
+    background-color: rgb(37, 37, 37);
 }
 
 .card-wrapper {
     display: flex;
-    
+    position: absolute;
+    grid-column: auto;
+    align-content: center !important;
+    justify-content: center !important;
 }
 
 .card1 {
-    display: flex;
+    display: block;
     position: relative;
-    justify-content: left;
-    width: 100px;
-    height: 100px;
-    background-color: gray;
+    justify-content: center;
+    align-self: left !important;
 }
 
-.card2 {
-    display: flex;
+.card1 {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 500px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    text-align: center;
+  }
+
+  .card1 h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .card1 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5rem;
+  }
+
+  .card1 i{
+    font-size: 10rem;
+    margin-top: 10rem;
+  }
+  .card1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+
+  .card2 {
+    margin: 20px;
     justify-content: center;
-}
+    padding: 20px;
+    width: 500px;
+    min-height: 400px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  .card2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+
+  .card3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }  
+
+  .card3 {
+    margin: 20px;
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  
+  

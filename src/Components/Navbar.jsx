@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact to="/about" relative='path' activeClassName="active" className="nav-links"onClick={handleClick}  >
+                to="/about"  activeClassName="active" className="nav-links" onClick={handleClick}  >
                 About
               </NavLink>
               </li>
