@@ -13,10 +13,14 @@ function Cards() {
                     <i class="fa-solid fa-bolt"></i>
                 </div>
                 <div className='card2'>
-                    <h1>card2</h1>
+                    <h1>Secure</h1>
+                    <h2>Sapphire Servers has secure servers.</h2>
+                    <i class="fa-solid fa-building-lock"></i>
                 </div>
                 <div className="card3">
-                    <h1>card3</h1>
+                    <h1>Something</h1>
+                    <h2>Something and something. leleeleleel</h2>
+                    <i class="fa-solid fa-building-lock"></i>
                 </div>
             </div>
         </div>
