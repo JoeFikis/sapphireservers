@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Route, Routes } from "react-router-dom";
 
 const Home = lazy(() => import('./Components/Pages/Home/Home'));
 const About = lazy(() => import('./Components/Pages/About/About'));
+const NotFound = lazy(() => import("./Components/Pages/404 Page/404"))
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path='*' element={<NotFound />}/>
         </Routes>
         </Suspense>
       </Router>
