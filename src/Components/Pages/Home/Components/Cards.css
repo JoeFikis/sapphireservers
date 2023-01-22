@@ -157,4 +157,14 @@
   }
 
   
-  
+  @media screen and (max-width: 1500px) {
+   .card1{
+    width: 350px;
+   }
+   .card2{
+    width: 350px;
+   }
+   .card3{
+    width: 350px;
+   }
+  }

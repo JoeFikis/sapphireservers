@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Cards from './Components/Cards'
+import Signup from './Components/signup'
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       </div>
     </div>
     <Cards />
+    <Signup />
     </>
   )
 }

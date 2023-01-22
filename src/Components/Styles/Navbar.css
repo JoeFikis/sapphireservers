@@ -6,7 +6,7 @@
 .nav-container {
     display: flex;
     position: relative;
-    background-color:rgb(37, 37, 37);
+    background-image: linear-gradient(black, rgb(40, 39, 39));
     height: 5rem;
 }
 .nav-wrapper {
@@ -90,6 +90,12 @@
   display: flex;
   margin-left: 73rem;
   margin-top: 1.3rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .nav-link-wrapper {
+    margin-left: 50rem;
+  }
 }
 
 @media screen and (max-width: 960px) {
