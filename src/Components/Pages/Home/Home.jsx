@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Cards from './Components/Cards'
+import Spacer from '../../spacer/spacer'
 import Signup from './Components/signup'
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
       </div>
     </div>
     <Cards />
+    <Spacer/>
     <Signup />
     </>
   )
