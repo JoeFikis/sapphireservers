@@ -16,7 +16,7 @@ function Home() {
           </h1>
         
         <div className="header-description">
-          <h2>A premium game server host that provides secure fast premium servers.</h2>
+          <h2>A premium game server host that provides secure fast, premium servers.</h2>
         </div>
         </div>
         <div className='header-sign-up'>
