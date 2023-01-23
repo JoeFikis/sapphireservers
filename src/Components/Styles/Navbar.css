@@ -5,9 +5,10 @@
 
 .nav-container {
     display: flex;
-    position: relative;
+    position: sticky;
     background-image: linear-gradient(black, rgb(40, 39, 39));
     height: 5rem;
+    top: 0;
 }
 .nav-wrapper {
     display: flex;

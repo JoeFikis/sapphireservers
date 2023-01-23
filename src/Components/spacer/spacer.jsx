@@ -1,9 +1,12 @@
 import React from 'react'
+import './spacer.css'
 
 function Spacer() {
   return (
-    <div>
-
+    <div className='container'>
+      <h1>
+        
+      </h1>
     </div>
   )
 }

@@ -4,9 +4,6 @@ import './signup.css'
 function Signup() {
   return (
     <>
-    <div classname='spacer'>
-      
-    </div>
     <div classname="container">
       <div className="wrap">
         <div className='container-wrapper'>
