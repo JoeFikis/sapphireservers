@@ -3,6 +3,7 @@ import './Home.css'
 import Cards from './Components/Cards'
 import Spacer from '../../spacer/spacer'
 import Signup from './Components/signup'
+import Signupbtn from './Components/signupbtn'
 
 
 function Home() {
@@ -20,7 +21,7 @@ function Home() {
         </div>
         </div>
         <div className='header-sign-up'>
-        <span><a href="https://dash.sapphireservers.net/"></a></span>
+       <Signupbtn />
         </div>
       </div>
     </div>

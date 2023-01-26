@@ -41,7 +41,7 @@
     height: 55px;
     margin: 3rem 15px;
     perspective: 1000px;
-    z-index: 2;
+    z-index: 0;
   }
   span{
     position: relative;

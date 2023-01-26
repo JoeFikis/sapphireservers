@@ -8,6 +8,7 @@
     position: sticky;
     background-image: linear-gradient(black, rgb(40, 39, 39));
     height: 5rem;
+    z-index: 1;
     top: 0;
 }
 .nav-wrapper {
