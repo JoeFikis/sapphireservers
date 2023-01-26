@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Styles/Navbar.css'
 import  {BrowserRouter , NavLink } from 'react-router-dom'
+import { useEffect } from 'react';
+import { debounce } from '../utilities/helpers';
 
 
 function Navbar() {
@@ -9,9 +11,36 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
 
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
+
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+
+    setPrevScrollPos(currentScrollPos);
+  }, 100);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+
+  }, [prevScrollPos, visible, handleScroll]);
+
+  const navbarStyles = {
+    position: 'fixed',
+    height: '10px',
+    width: '100%',
+    textAlign: 'center',
+    transition: 'top 0.6s'
+  }
+
 
   return (
     <BrowserRouter>
+    <div style={{ ...navbarStyles, top: visible ? '0' : '-100px' }}>
     <div className='nav-container'>
         <div className='nav-wrapper'>
             <div className='nav-logo'>
@@ -36,6 +65,7 @@ function Navbar() {
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
+        </div>
         </div>
         </div>
     </BrowserRouter>
