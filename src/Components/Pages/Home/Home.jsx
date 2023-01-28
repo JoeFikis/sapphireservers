@@ -26,7 +26,6 @@ function Home() {
       </div>
     </div>
     <Cards />
-    <Spacer/>
     <Signup />
     </>
   )

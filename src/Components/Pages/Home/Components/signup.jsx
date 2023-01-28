@@ -1,18 +1,25 @@
 import React from 'react'
 import './signup.css'
+import Signupbtn from './signupbtn'
 
 function Signup() {
   return (
     <>
-    <div classname="container">
-      <div className="wrap">
-        <div className='container-wrapper'>
-        <h1>Sign-Up.</h1>
-        <h2>Sign-Up and begin your new server.</h2>
-        <button><a href="https://dash.sapphireservers.net">Login</a></button>
+     <div className="signup-container">
+      <div className="signup-wrapper">
+        <div className="signup-head">
+          <h1>
+            SapphireServers
+          </h1>
+          <h2>
+            Start your server now.
+          </h2>
+          <div className="signup-btn">
+          <Signupbtn />
+          </div>
         </div>
       </div>
-    </div>
+     </div>
     </>
   )
 }
