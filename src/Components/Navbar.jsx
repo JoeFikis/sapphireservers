@@ -30,10 +30,7 @@ function Navbar() {
   }, [prevScrollPos, visible, handleScroll]);
 
   const navbarStyles = {
-    position: 'fixed',
-    height: '10px',
-    width: '100%',
-    textAlign: 'center',
+    position: 'sticky',
     transition: 'top 0.6s'
   }
 

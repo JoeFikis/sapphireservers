@@ -1,14 +1,22 @@
 import React from 'react'
-import './About.css'
+
+
 
 function About() {
   return (
     <>
-    <div className="header">
-      <div className="header-container">
+    <div className='header-container'>
+      <div className="header-wrapper">
         <div className="header-text">
-        <h1>About SapphireServers</h1>
-        <h2>lelelelelle</h2>
+          <h1>
+            SapphireServers
+          </h1>
+        
+        <div className="header-description">
+          <h2>A premium game server host that provides secure fast, premium servers.</h2>
+        </div>
+        </div>
+        <div className='header-sign-up'>
         </div>
       </div>
     </div>
