@@ -4,6 +4,7 @@ import Cards from './Components/Cards'
 import Spacer from '../../spacer/spacer'
 import Signup from './Components/signup'
 import Signupbtn from './Components/signupbtn'
+import Footer from '../../footer/footer'
 
 
 function Home() {
@@ -27,6 +28,7 @@ function Home() {
     </div>
     <Cards />
     <Signup />
+    <Footer />
     </>
   )
 }

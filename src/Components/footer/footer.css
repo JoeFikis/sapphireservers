@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    background-color: rgb(36, 34, 34);
+    height: 10rem;
+    display: flex;
+}
+
+.billing {
+    display: block;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    margin-top: 2rem;
+    margin-left: 50ch;
+}
+
+.billing h2 {
+    color: white;
+}
+
+.billing a {
+    text-decoration: none;
+    outline: none;
+    clear: both;
+}
