@@ -31,7 +31,7 @@ function Navbar() {
 
   const navbarStyles = {
     position: 'sticky',
-    transition: 'top 0.6s'
+    transition: 'top 0.3s'
   }
 
 

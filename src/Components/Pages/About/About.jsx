@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Footer from '../../footer/footer'
 
 
 function About() {
@@ -10,6 +11,8 @@ function About() {
         <h1>About</h1>
       </div>
     </div>
+    {/* End of About Page */}
+    <Footer />
     </>
   )
 }
