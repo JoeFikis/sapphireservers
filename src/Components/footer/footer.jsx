@@ -5,6 +5,7 @@ function footer() {
   return (
     <div className="footer-container">
       <div className="wrapper">
+        <div className="links">
         {/* Billing */}
         <div className="billing">
           <h2> Billing</h2>
@@ -35,10 +36,11 @@ function footer() {
             <button><a href="https://dash.sapphireservers.net">Youtube</a></button>
           </div>
         </div>
-        <div className="name">
-          <h2>SapphireServers</h2>
         </div>
       </div>
+      <div className="name">
+          <h2>SapphireServers</h2>
+        </div>
     </div>
   )
 }

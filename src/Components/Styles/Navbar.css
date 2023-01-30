@@ -6,8 +6,9 @@
 .nav-container {
     display: flex;
     position: sticky;
-    background-image: linear-gradient(black, rgb(40, 39, 39));
+    background-color: rgb(40, 39, 39);
     height: 5rem;
+    width: 100%;
     z-index: 1;
     top: 0;
 }
@@ -104,12 +105,15 @@
   .nav-logo i {
     margin-left: 1rem;
   }
+
+  .nav-container {
+    width: 100%;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
     border-top: 1pxsolid #fff;
-    overflow: visible;
     position: absolute;
     top: 80px;
     left: -110%;
@@ -118,13 +122,13 @@
   }
 
   .nav-menu.active {
-    background:   rgb(37, 37, 37);
+    background: rgb(37, 37, 37);
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
-  .nav-item .active {
+  .nav-item .Active {
     color: rgb(95, 95, 211);
     border: none;
   }

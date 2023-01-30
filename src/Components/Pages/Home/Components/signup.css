@@ -62,3 +62,16 @@
     font-size: 25rem;
 }
 
+@media screen and (max-width: 960px){
+    
+    .icon-container {
+        display: none;
+    }
+    .box-container {
+        width: 20rem;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+}
