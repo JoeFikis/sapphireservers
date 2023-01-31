@@ -1,38 +1,81 @@
-import React from 'react'
-import './footer.css'
-import { Column, Heading, Row } from './FooterStyles'
-
-function Footer() {
+import React from "react";
+import {
+  Box,
+  Container,
+  Row,
+  Column,
+  FooterLink,
+  Heading,
+} from "./FooterStyles";
+import "./footer.css"
+  
+const Footer = () => {
   return (
-    <div>
-      <div className="footer-container">
-        <div className="footer-wrapper">
-          <div className="footer-links">
-            {/* Billing Links */}
-            <div className="billing">
-              <Heading>Billing</Heading>
-              <a href="https://dash.sapphireservers.net/" className='Dashboard'>Dashboard</a>
-              </div>
-               {/* Legal Links */}
-            <div className="legal">
-              <Heading>Legal</Heading>
-              <a href="/" className='TOS'>TOS</a>
-              </div>
-
-               {/* Website Links Links */}
-            <div className="links">
-              <Heading>Links</Heading>
-              <a href="/about" className='About'>About</a>
-              <a href="/" className='Plans'>Plans</a>
-              </div>
-          </div>
-          <div className="name">
-            <Heading>SapphireServers</Heading>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export default Footer
+    <div className="footer">
+    <Box>
+      <Container>
+        <Row>
+          <Column>
+            <Heading>About Us</Heading>
+            <FooterLink href="#">Aim</FooterLink>
+            <FooterLink href="#">Vision</FooterLink>
+            <FooterLink href="#">Testimonials</FooterLink>
+          </Column>
+          <Column>
+            <Heading>Services</Heading>
+            <FooterLink href="#">Writing</FooterLink>
+            <FooterLink href="#">Internships</FooterLink>
+            <FooterLink href="#">Coding</FooterLink>
+            <FooterLink href="#">Teaching</FooterLink>
+          </Column>
+          <Column>
+            <Heading>Contact Us</Heading>
+            <FooterLink href="#">Uttar Pradesh</FooterLink>
+            <FooterLink href="#">Ahemdabad</FooterLink>
+            <FooterLink href="#">Indore</FooterLink>
+            <FooterLink href="#">Mumbai</FooterLink>
+          </Column>
+          <Column>
+            <Heading>Social Media</Heading>
+            <FooterLink href="#">
+              <i className="fab fa-facebook-f">
+                <span style={{ marginLeft: "10px" }}>
+                  Facebook
+                </span>
+              </i>
+            </FooterLink>
+            <FooterLink href="#">
+              <i className="fab fa-instagram">
+                <span style={{ marginLeft: "10px" }}>
+                  Instagram
+                </span>
+              </i>
+            </FooterLink>
+            <FooterLink href="#">
+              <i className="fab fa-twitter">
+                <span style={{ marginLeft: "10px" }}>
+                  Twitter
+                </span>
+              </i>
+            </FooterLink>
+            <FooterLink href="#">
+              <i className="fab fa-youtube">
+                <span style={{ marginLeft: "10px" }}>
+                  Youtube
+                </span>
+              </i>
+            </FooterLink>
+          </Column>
+        </Row>
+      </Container>
+      <h1 style={{ color: "White", 
+                  fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+                   textAlign: "center", 
+                   marginTop: "40px" }}>
+        SapphireServers
+      </h1>
+    </Box>
+    </div> 
+  );
+};
+export default Footer;
