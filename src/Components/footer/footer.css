@@ -7,20 +7,18 @@
     background-color: rgb(36, 34, 34);
     height: 12rem;
     display: flex;
-   justify-content: center;
-   display: flex;
     position: relative;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .footer-links
 {
     display: flex;
+    justify-content: space-between;
     position: relative;
-    flex-wrap: wrap;
-    height: 12rem;
-    gap: 5rem;
+    margin-top: 2rem;
+    gap: 1rem;
+
 }
 
 .billing {
@@ -31,22 +29,47 @@
 .billing a {
     text-decoration: none;
     color: white;
+    display: flex;
+    transition: color 1s;
+    margin-top: -2rem;
 }
 .billing a:hover {
     color: gold;
 }
 .legal {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    transition: color, 1s;
 }
 
 .legal a {
     text-decoration: none;
     color: white;
+    display: flex;
     transition: color 1s;
+    margin-top: -2rem;
 }
 
 .legal a:hover {
     color: gold;
 }
 
+.links {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    transition: color 1s;
+   
+    margin-top: -2rem;
+}
+.links a:hover {
+    color: gold;
+}
+
+.name {
+    margin-top: 4.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

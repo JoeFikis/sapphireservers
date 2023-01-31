@@ -18,6 +18,16 @@ function Footer() {
               <Heading>Legal</Heading>
               <a href="/" className='TOS'>TOS</a>
               </div>
+
+               {/* Website Links Links */}
+            <div className="links">
+              <Heading>Links</Heading>
+              <a href="/about" className='About'>About</a>
+              <a href="/" className='Plans'>Plans</a>
+              </div>
+          </div>
+          <div className="name">
+            <Heading>SapphireServers</Heading>
           </div>
         </div>
       </div>
