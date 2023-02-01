@@ -16,41 +16,30 @@ const Footer = () => {
       <Container>
         <Row>
           <Column>
-            <Heading>About Us</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
+            <Heading>Legal</Heading>
+            <FooterLink href="#">Privacy</FooterLink>
+            <FooterLink href="#">TOS</FooterLink>
           </Column>
           <Column>
-            <Heading>Services</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
+            <Heading>Billing</Heading>
+            <FooterLink href="#">Plans</FooterLink>
+            <FooterLink href="https://dash.sapphireservers.net/">Billing Panel</FooterLink>
+            <FooterLink href="https://gp.sapphireservers.net/">Game Panel</FooterLink>
           </Column>
           <Column>
             <Heading>Contact Us</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
+            <FooterLink href="#">Tickets</FooterLink>
+            <FooterLink href="https://discord.gg/vAnrbwgaQh">Discord</FooterLink>
           </Column>
           <Column>
             <Heading>Social Media</Heading>
-            <FooterLink href="#">
-              <i className="fab fa-facebook-f">
+            <FooterLink href="https://discord.gg/vAnrbwgaQh">
+              <i className="fab fa-discord">
                 <span style={{ marginLeft: "10px" }}>
-                  Facebook
+                  Discord
                 </span>
               </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-              </i>
-            </FooterLink>
+              </FooterLink>
             <FooterLink href="#">
               <i className="fab fa-twitter">
                 <span style={{ marginLeft: "10px" }}>

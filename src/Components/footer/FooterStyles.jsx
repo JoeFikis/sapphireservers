@@ -54,10 +54,10 @@ text-decoration: none;
 }
 `;
 
+
 export const Heading = styled.p`
 font-size: 24px;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 color: #fff;
 margin-bottom: 40px;
-font-weight: bold;
 `;
