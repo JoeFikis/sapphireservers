@@ -30,7 +30,7 @@ function Navbar() {
   }, [prevScrollPos, visible, handleScroll]);
 
   const navbarStyles = {
-    position: 'fixed',
+    position: 'sticky',
     height: '60px',
     width: '100%',
     backgroundColor: 'grey',
