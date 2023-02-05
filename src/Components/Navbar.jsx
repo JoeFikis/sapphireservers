@@ -10,7 +10,7 @@ function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-
+ 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
@@ -30,8 +30,14 @@ function Navbar() {
   }, [prevScrollPos, visible, handleScroll]);
 
   const navbarStyles = {
-    position: 'sticky',
+    position: 'fixed',
+    height: '60px',
+    width: '100%',
+    backgroundColor: 'grey',
+    textAlign: 'center',
     transition: 'top 0.3s',
+    zindex: '1000',
+    
   }
 
 
