@@ -16,17 +16,15 @@
 
 .card-wrapper {
     display: flex;
-    position: absolute;
+    position: relative;
     grid-column: auto;
-    align-content: center !important;
-    justify-content: center !important;
 }
 
 .card1 {
     display: block;
     position: relative;
     justify-content: center;
-    align-self: left !important;
+
 }
 
 .card1 {

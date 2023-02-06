@@ -46,11 +46,16 @@
 
 @media screen and (max-width: 960px) {
     .header-text h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     
     .header-text h2 {
-        margin-top: 3rem;
+        margin-top: 2.5rem;
+    }
+
+    .header-sign-up {
+        justify-content: center;
+        
     }
 
 }

@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-}
+  }
 
 .nav-container {
     display: flex;
-    position: sticky;
+    position: relative;
     background-color: rgb(40, 39, 39);
     height: 5rem;
     width: 100%;
@@ -14,7 +14,6 @@
 }
 .nav-wrapper {
     display: flex;
-
 }
 
 .nav-logo {
@@ -109,6 +108,11 @@
   .nav-container {
     width: 100%;
   }
+
+  .nav-wrapper {
+    overflow-x: hidden;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -124,6 +128,7 @@
   .nav-menu.active {
     background: rgb(37, 37, 37);
     left: 0px;
+    overflow-x: hidden !important;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
