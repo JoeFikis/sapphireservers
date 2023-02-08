@@ -17,7 +17,7 @@ function Navbar() {
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
 
-    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 50) || currentScrollPos < 3 );
 
     setPrevScrollPos(currentScrollPos);
   }, 100);
@@ -30,9 +30,18 @@ function Navbar() {
   }, [prevScrollPos, visible, handleScroll]);
 
 
+  const navbarStyles = {
+    position: 'fixed',
+    height: '60px',
+    width: '100%',
+    backgroundColor: 'grey',
+    textAlign: 'center',
+    transition: 'top 0.6s'
+  }
+
   return (
     <BrowserRouter>
-    <div>
+    <div style={{ ...navbarStyles, top: visible ? '0' : '-100px' }}>
     <div className='nav-container'>
         <div className='nav-wrapper'>
             <div className='nav-logo'>

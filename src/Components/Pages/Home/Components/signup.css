@@ -6,6 +6,7 @@
 .signup-container {
     height: 40rem;
     justify-content: center;
+    position: none;
     border-radius: 1px;
     display: flex;
     background-color: rgb(37, 37, 37);
@@ -40,7 +41,6 @@
 }
 
 .signup-btn {
-    position: relative;
     display: inline-flex;
     justify-content: right;
     width: 180px;

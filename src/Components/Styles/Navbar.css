@@ -9,7 +9,7 @@
     background-color: rgb(40, 39, 39);
     height: 5rem;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
     top: 0;
 }
 .nav-wrapper {

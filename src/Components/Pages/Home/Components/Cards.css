@@ -5,9 +5,10 @@
 
 .cards-container {
     display: flex;
-    position: relative;
+    position: none;
     justify-content: center;
     flex-wrap: wrap;
+    z-index: 2;
     margin: 1rem;
     height: 37rem;
     margin: 0;
@@ -16,13 +17,11 @@
 
 .card-wrapper {
     display: flex;
-    position: relative;
     grid-column: auto;
 }
 
 .card1 {
     display: block;
-    position: relative;
     justify-content: center;
 
 }
