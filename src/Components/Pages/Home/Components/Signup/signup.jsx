@@ -1,6 +1,6 @@
 import React from 'react'
 import './signup.css'
-import Signupbtn from './signupbtn'
+import Signupbtn from '../BTN/signupbtn'
 
 function Signup() {
   return (

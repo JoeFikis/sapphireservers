@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: row;
+}
+
+.plans-wrapper {
+    display: flex;
+    grid-column: auto;
+}
+
+
+.plan-1{
+    display: block;
+    position: static;
+    width: 120px;
+    height: 200px;
+    background-image: linear-gradient(to bottem, white, black);
+}
