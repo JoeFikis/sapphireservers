@@ -21,7 +21,7 @@ function Plans() {
                         </div>
                     </div>
                     <div className="plan-2">
-                        <h1>X Small</h1>
+                        <h1>Small</h1>
                         <div className="specs2">
                             <h2>Core</h2>
                             <h2>Ram</h2>

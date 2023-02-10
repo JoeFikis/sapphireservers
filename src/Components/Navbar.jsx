@@ -17,7 +17,7 @@ function Navbar() {
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
 
-    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 30) || currentScrollPos < 1 );
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
 
     setPrevScrollPos(currentScrollPos);
   }, 100);
