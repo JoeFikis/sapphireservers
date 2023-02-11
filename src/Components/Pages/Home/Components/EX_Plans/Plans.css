@@ -29,6 +29,28 @@
     display: flex;
 }
 
+.btn button{
+    background-image: linear-gradient(to right, blue, purple);
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    transition: width 1s, height 1s, background 1s;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(35, 35, 232), rgb(126, 16, 126));
+    width: 120px;
+    height: 60px;
+    justify-content: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Plan 1 */
 .plan-1{
     display: flex;
