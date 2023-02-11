@@ -33,6 +33,19 @@ function Plans() {
                             </button>
                         </div>
                     </div>
+                    <div className="plan-3">
+                        <h1>Medium</h1>
+                        <div className="specs3">
+                            <h2>Core</h2>
+                            <h2>Ram</h2>
+                            <h2>Storage</h2>
+                        </div>
+                        <div className="btn">
+                            <button>
+                                <a href="/">View More</a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
