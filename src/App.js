@@ -14,7 +14,9 @@ function App() {
 
   return (
     <>
+    <div className="nav">
   <Navbar />
+  </div>
 
       <Router>
       <Suspense fallback={<h1>Loading profile...</h1>}>

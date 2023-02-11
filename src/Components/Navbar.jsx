@@ -31,7 +31,7 @@ function Navbar() {
 
 
   const navbarStyles = {
-    position: 'fixed',
+    position: 'sticky',
     top: '0',
     width: '100%',
     backgroundColor: 'grey',
@@ -41,7 +41,7 @@ function Navbar() {
 
   return (
     <BrowserRouter>
-    <div style={{ ...navbarStyles, top:  visible? '0' : '0px' }}>
+    <div style={{ ...navbarStyles}}>
     <div className='nav-container'>
         <div className='nav-wrapper'>
             <div className='nav-logo'>
