@@ -14,7 +14,6 @@ function App() {
 
   return (
     <>
-  <Navbar />
 
       <Router>
       <Suspense fallback={<h1>Loading profile...</h1>}>
