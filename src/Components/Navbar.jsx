@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Styles/Navbar.css'
 import  {BrowserRouter , NavLink } from 'react-router-dom'
-import { useEffect } from 'react';
-import { debounce } from '../utilities/helpers';
 
 
 function Navbar() {
@@ -10,26 +8,6 @@ function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
- 
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
-
-  const handleScroll = debounce(() => {
-    const currentScrollPos = window.pageYOffset;
-
-    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
-
-    setPrevScrollPos(currentScrollPos);
-  }, 100);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-
-  }, [prevScrollPos, visible, handleScroll]);
-
-
 
   return (
     <BrowserRouter>
