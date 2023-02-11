@@ -10,7 +10,7 @@ import Aos from 'aos'
 
 function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1500});
+    Aos.init({ duration: 1000});
   })
   return (
     <>
