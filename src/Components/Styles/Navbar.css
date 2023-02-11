@@ -5,7 +5,7 @@
 
 .nav-container {
     display: flex;
-    position: sticky;
+    position: static;
     background-color: rgb(40, 39, 39);
     height: 5rem;
     width: 100%;

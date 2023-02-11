@@ -30,18 +30,10 @@ function Navbar() {
   }, [prevScrollPos, visible, handleScroll]);
 
 
-  const navbarStyles = {
-    position: 'sticky',
-    top: '0',
-    width: '100%',
-    backgroundColor: 'grey',
-    textAlign: 'center',
-    transition: 'top 0.3s'
-  }
 
   return (
     <BrowserRouter>
-    <div style={{ ...navbarStyles}}>
+    <div>
     <div className='nav-container'>
         <div className='nav-wrapper'>
             <div className='nav-logo'>
