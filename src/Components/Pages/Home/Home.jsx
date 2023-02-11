@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
-import Cards from './Components/Cards'
-import Spacer from '../../spacer/spacer'
-import Signup from './Components/signup'
-import Signupbtn from './Components/signupbtn'
+import Cards from './Components/Cards/Cards'
+import Signup from './Components/Signup/signup'
+import Signupbtn from './Components/BTN/signupbtn'
 import Footer from '../../footer/footer'
+import Plans from './Components/EX_Plans/Plans'
 
 
 function Home() {
@@ -26,6 +26,7 @@ function Home() {
         </div>
       </div>
     </div>
+    <Plans />
     <Cards />
     <Signup />
     <Footer />

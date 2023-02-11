@@ -29,17 +29,15 @@ function Navbar() {
 
   }, [prevScrollPos, visible, handleScroll]);
 
+
   const navbarStyles = {
     position: 'sticky',
     height: '60px',
     width: '100%',
     backgroundColor: 'grey',
     textAlign: 'center',
-    transition: 'top 0.3s',
-    zindex: '1000',
-    
+    transition: 'top 0.6s'
   }
-
 
   return (
     <BrowserRouter>
