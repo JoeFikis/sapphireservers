@@ -36,7 +36,7 @@ function Navbar() {
     width: '100%',
     backgroundColor: 'grey',
     textAlign: 'center',
-    transition: 'top 0.6s'
+    transition: 'top 0.3s'
   }
 
   return (
