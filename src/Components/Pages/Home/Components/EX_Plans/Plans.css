@@ -15,6 +15,16 @@
     background-color: rgb(37, 37, 37);
 }
 
+.plans-box-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 1rem;
+    height: 30rem;
+    width: 100vh;
+    background-image: linear-gradient(to right, #2193b0 , #6dd5ed);
+}
+
 .plans-wrapper {
     display: flex;
     justify-content: space-between;
@@ -24,15 +34,24 @@
     grid-row: auto;
 }
 
-.plans {
-    gap: 1rem;
-    display: flex;
+
+.stuff-container {
+    display: inline;
+    margin-right: 400px;
+}
+
+.icon-container {
+    display: block;
+    position: absolute;
+    font-size: 20rem;
+    margin-left: 30rem;
 }
 
 .btn button{
     background-image: linear-gradient(to right, blue, purple);
     width: 100px;
     height: 50px;
+    outline: none;
     justify-content: center;
     align-content: center;
     transition: width 1s, height 1s, background 1s;
@@ -48,7 +67,13 @@
 
 .btn a {
     text-decoration: none;
+    outline: none;
     color: white;
+}
+
+.plan1-text {
+    position: relative;
+    margin-bottom: 20px;
 }
 
 /* Plan 1 */
@@ -68,6 +93,7 @@
             h2 {
                 color: white;
             }
+
 
 /* Plan 2 */
 .plan-2 {

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Styles/Navbar.css'
-import  {BrowserRouter , NavLink } from 'react-router-dom'
+import  {BrowserRouter } from 'react-router-dom'
 
 
 function Navbar() {
@@ -9,9 +9,29 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
 
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 0) {
+      setSticky(true);
+    } else {
+      setSticky(false);
+    }
+  };
+
+
+
+
   return (
     <BrowserRouter>
-    <div>
+    <div className={`navbar ${sticky ? 'sticky' : ''}`}>
     <div className='nav-container'>
         <div className='nav-wrapper'>
             <div className='nav-logo'>

@@ -5,13 +5,18 @@
 
 .nav-container {
     display: flex;
-    position: static;
+    position: fixed;
     background-color: rgb(40, 39, 39);
     height: 5rem;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
     top: 0;
 }
+
+nav-container.scrolled {
+  border-bottom: 4px solid linear-gradient(to right, #ccc, #ddd, #ccc);
+}
+
 .nav-wrapper {
     display: flex;
 }

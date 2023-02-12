@@ -19,10 +19,7 @@ function Signup() {
           </div>
           <div className="signup-btn">
           <Signupbtn />
-          </div>   
-          <div className="icon-container">
-          <i class="fa-solid fa-server"></i>
-          </div>  
+          </div>     
         </div>
       </div>
       </div>
