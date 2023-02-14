@@ -16,7 +16,7 @@
 .box-container {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-self: center;
     width: 1000vh;
     background-color: rgb(238, 64, 64);
     border-radius: 1rem;
@@ -24,9 +24,7 @@
 }
 
 .signup-wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
 }
 
 .text {
@@ -39,19 +37,17 @@
 
 
 .signup-head h1 ,h2{
-    justify-content: center;
-    align-self: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .signup-btn {
     display: inline-flex;
-    justify-content: right;
     width: 180px;
     height: 55px;
+    margin: 3rem 15px;
     perspective: 1000px;
-    z-index: 0;
-}
+    z-index: 2;
+  }
 
 
 

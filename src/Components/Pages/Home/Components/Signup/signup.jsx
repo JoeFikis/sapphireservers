@@ -10,16 +10,19 @@ function Signup() {
       <div className="signup-wrapper">
         <div className="signup-head">
           <div className="text">
+            <div className="textcontainer-wrapper">
           <h1>
             SapphireServers
           </h1>
           <h2>
             Start your server now.
           </h2>
-          </div>
+
           <div className="signup-btn">
           <Signupbtn />
-          </div>     
+          </div>
+          </div>
+          </div>   
         </div>
       </div>
       </div>
