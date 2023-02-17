@@ -5,6 +5,7 @@
 
 .nav-container {
     display: flex;
+    justify-content: space-between;
     position: fixed;
     background-color: rgb(40, 39, 39);
     height: 5rem;
@@ -13,13 +14,7 @@
     top: 0;
 }
 
-nav-container.scrolled {
-  border-bottom: 4px solid linear-gradient(to right, #ccc, #ddd, #ccc);
-}
 
-.nav-wrapper {
-    display: flex;
-}
 
 .nav-logo {
     margin-top: 1.5rem;
@@ -95,19 +90,30 @@ nav-container.scrolled {
 
 .nav-link-wrapper {
   display: flex;
-  margin-left: 73rem;
+  float: right;
+  justify-content: right;
   margin-top: 1.3rem;
 }
 
-@media screen and (max-width: 1500px) {
+.nav-linkss {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+@media screen and (max-width: 1850px) {
   .nav-link-wrapper {
-    margin-left: 50rem;
+    
   }
 }
 
 @media screen and (max-width: 960px) {
+
+  .nav-logo {
+    margin-left: -1rem;
+  }
   .nav-logo i {
-    margin-left: 1rem;
+    margin-left: .5rem;
   }
 
   .nav-container {
@@ -149,10 +155,10 @@ nav-container.scrolled {
   }
 
   .nav-icon {
-    display: block;
+    display: flex;
     position: absolute;
     width: fit-content;
-    top: 0;
+    top: 0.5rem;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -163,3 +169,10 @@ nav-container.scrolled {
         display: flex;
       }
     }
+
+@media screen and (max-width: 560px) {
+
+  .nav-container {
+    width: 67.4%;
+  }
+}

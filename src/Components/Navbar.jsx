@@ -33,12 +33,13 @@ function Navbar() {
     <BrowserRouter>
     <div className={`navbar ${sticky ? 'sticky' : ''}`}>
     <div className='nav-container'>
-        <div className='nav-wrapper'>
+  
             <div className='nav-logo'>
                 <h1>SapphireServers</h1>
                 <i class="fa-solid fa-server"></i>
             </div>
             <div className="nav-link-wrapper">
+              <div className="nav-linkss">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <a>
             <li className="nav-item">
@@ -53,11 +54,12 @@ function Navbar() {
               </li>
           </ul>
           </div>
+          </div>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
         </div>
-        </div>
+  
         </div>
     </BrowserRouter>
   )
