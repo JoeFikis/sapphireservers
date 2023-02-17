@@ -27,11 +27,18 @@ function Navbar() {
   };
 
 
+  const navbarStyles = {
+    position: 'fixed',
+    height: '60px',
+    width: '100%',
+    zIndex: '1',
+  }
+
 
 
   return (
     <BrowserRouter>
-    <div className={`navbar ${sticky ? 'sticky' : ''}`}>
+    <div className={`navbar ${sticky ? 'sticky' : 'fixed'}`} style={navbarStyles}>
     <div className='nav-container'>
         <div className='nav-wrapper'>
             <div className='nav-logo'>
