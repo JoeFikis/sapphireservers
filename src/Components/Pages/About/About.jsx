@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Footer from '../../footer/footer'
+import Testimonials from './Components/Testimonials/index'
 
 
 function About() {
@@ -12,6 +13,7 @@ function About() {
       </div>
     </div>
     {/* End of About Page */}
+    <Testimonials />
     <Footer />
     </>
   )
