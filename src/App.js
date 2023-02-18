@@ -7,6 +7,7 @@ import './App.css'
 const Home = lazy(() => import('./Components/Pages/Home/Home'));
 const About = lazy(() => import('./Components/Pages/About/About'));
 const NotFound = lazy(() => import("./Components/Pages/404 Page/404"))
+const Plans = lazy(() => import("./Components/Pages/Plans/plans"))
 const TOS = lazy(() => import("./Components/Pages/TOS/tos"))
 
 
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/plans" element={<Plans />} />
           <Route path='/tos' element={<TOS />}/>
           <Route path='*' element={<NotFound />}/>
         </Routes>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Styles/Navbar.css'
-import  {BrowserRouter } from 'react-router-dom'
+import  {BrowserRouter, NavLink } from 'react-router-dom'
 
 
 function Navbar() {
@@ -55,6 +55,9 @@ function Navbar() {
             </a>
             <li className="nav-item">
                 <a href="/about"  activeClassName="Active" className='nav-links'>About</a>
+              </li>
+              <li className="nav-item">
+                <a href="/plans"  activeClassName="Active" className='nav-links'>Plans</a>
               </li>
               <li className="nav-item">
               <a href="https://dash.sapphireservers.net"  activeClassName="Active" className='nav-links'>Sign-Up</a>

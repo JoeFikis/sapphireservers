@@ -18,7 +18,7 @@ function Plans() {
                </div>
                <div className="btn">
                 <button>
-                <a href="https://dash.sapphireservers.net/">
+                <a href="/plans">
                 View Plans
                 </a>
                 </button>
