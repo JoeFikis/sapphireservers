@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import Footer from '../../footer/footer'
 import Testimonials from './Components/Testimonials/index'
+import AboutUs from './Components/About Us'
 
 
 function About() {
@@ -14,6 +15,7 @@ function About() {
     </div>
     {/* End of About Page */}
     <Testimonials />
+    <AboutUs/>
     <Footer />
     </>
   )

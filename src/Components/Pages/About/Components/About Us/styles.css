@@ -1,0 +1,5 @@
+.about-us_container {
+    display: flex;
+    position: relative;
+    height: 20rem;
+}
