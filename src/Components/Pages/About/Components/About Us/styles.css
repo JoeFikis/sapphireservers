@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .about_us-container {
     display: flex;
     justify-content: center;
@@ -24,4 +25,10 @@
     width: 300px;
     display: flex;
     position: relative;
+=======
+.about-us_container {
+    display: flex;
+    position: relative;
+    height: 20rem;
+>>>>>>> 04bbbad0bb1eee0bae01e53dcf3dabb32ad19c71
 }
